@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "ada572ca61e76c94a9915dc56859440ae79dd701d88ff478fd3f61373b3bc251",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.1clickimpact.com/openapi.yaml"
+  ],
+  "id": "1clickimpact-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "1ClickImpact MCP setup and connection checker",
+  "description": "Generate 1ClickImpact MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "1clickimpact",
+  "appName": "1ClickImpact",
+  "providerDocs": "https://docs.1clickimpact.com/openapi.yaml",
+  "providerWebsite": "https://1clickimpact.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.1clickimpact.com/authentication",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-1clickimpact-mcp"
+}
