@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-1clickimpact",
+      "description": "Connect AI agents to 1ClickImpact using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-1clickimpact/SKILL.md": "734e58af37d208c9414012e2d0cde6465239407218a063e6ad746d3aa5367b96"
+  }
+}
